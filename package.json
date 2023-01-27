@@ -1,27 +1,24 @@
 {
-  "name": "express-hello-world",
-  "version": "1.0.0",
-  "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
-  "main": "server.js",
-  "scripts": {
-    "serve": "nodemon --watch . server.js",
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/express-hello-world.git"
-  },
-  "author": "Cyclic Software",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/express-hello-world/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/express-hello-world#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bare-server-node": "github:tomphttp/bare-server-node",
+    "ev-emitter": "^2.1.2",
+    "get-size": "^3.0.0",
+    "jquery": "^3.6.0",
+    "node-static": "^0.7.11",
+    "unidragger": "^3.0.1",
+    "unipointer": "^2.4.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+  "name": "uv-app",
+  "version": "1.0.0",
+  "description": "Ultraviolet instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later"
 }
